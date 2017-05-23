@@ -1,17 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Card} from 'antd';
 
 class Tile extends React.Component {
   render() {
     return (
-      // <Card title={generation.pokemon_species[120].name} extra={<a href="#">1</a>} style={{ width: 300 }}>
-      //   <pre><code>{JSON.stringify(generation,null,2)}</code></pre>
-      // </Card>
-
-      <div>
-        {this.props.name}
+      <Card
+        bodyStyle={{
+          display: 'flex',
+          justifyContent: 'center'
+        }}
+        title={this.props.name}
+        style={{ width: 300 }}
+      >
         <img src={this.props.image} alt={`thumbnail of ${this.props.name}`}/>
-      </div>
+      </Card>
     );
   }
 }
