@@ -11,7 +11,7 @@ class Tile extends React.Component {
           justifyContent: 'center'
         }}
         title={this.props.name}
-        style={{ width: 300 }}
+        style={{...this.props.style, width: 300 }}
       >
         <img src={this.props.image} alt={`thumbnail of ${this.props.name}`}/>
       </Card>
@@ -22,6 +22,7 @@ class Tile extends React.Component {
 Tile.propTypes = {
   name:  PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
+  style: PropTypes.object,
 }
 
 Tile.defaultProps = {
