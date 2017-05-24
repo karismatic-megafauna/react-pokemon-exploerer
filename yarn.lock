@@ -4509,6 +4509,10 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
+pokemon-images@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/pokemon-images/-/pokemon-images-2.0.1.tgz#6465b3e97ebebb2a36f08a586bb1b06d01078fb8"
+
 portfinder@^1.0.9:
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.13.tgz#bb32ecd87c27104ae6ee44b5a3ccbf0ebb1aede9"
