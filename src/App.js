@@ -28,6 +28,7 @@ class App extends React.Component {
           placeholder={this.state.searchTerm}
           style={{ width: 200 }}
           onSearch={value => this.setState({searchTerm: value})}
+          onBlur={e => this.setState({searchTerm: e.target.value})}
         />
         <div style={pokeCards}>
           {
